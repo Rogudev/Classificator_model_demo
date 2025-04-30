@@ -64,6 +64,8 @@ This notebook allow user to create a dataset to process it and save the data spl
 
 This notebook has their own [documentation](https://huggingface.co/Rogudev/whiskey_classificator_model) in Hugging Face
 
+The notebook has a cell where the test phase could be done in a loop, these are the results:
+![Testing results table](testing_results.png)
 
 ### gradio_demo_hf_conn.ipynb
 This notebook allow user to test the model in a gradio app which uses the model and the processors from Hugging Face.
