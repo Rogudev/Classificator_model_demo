@@ -1,57 +1,225 @@
 {
-  "description": "Whiskey classification dataset with normalized features and encoded target category.",
-  "features": {
-    "age": "Value(dtype='float64', id=None)",
-    "abv": "Value(dtype='float64', id=None)",
-    "retail_price_usd": "Value(dtype='float64', id=None)",
-    "release_year": "Value(dtype='float64', id=None)",
-    "average_rating": "Value(dtype='float64', id=None)",
-    "award_wins": "Value(dtype='float64', id=None)",
-    "brand_Ardbeg": "Value(dtype='float64', id=None)",
-    "brand_Balvenie": "Value(dtype='float64', id=None)",
-    "brand_Buffalo Trace": "Value(dtype='float64', id=None)",
-    "brand_Glenfiddich": "Value(dtype='float64', id=None)",
-    "brand_Highland Park": "Value(dtype='float64', id=None)",
-    "brand_Jack Daniel's": "Value(dtype='float64', id=None)",
-    "brand_Jameson": "Value(dtype='float64', id=None)",
-    "brand_Lagavulin": "Value(dtype='float64', id=None)",
-    "brand_Macallan": "Value(dtype='float64', id=None)",
-    "brand_Yamazaki": "Value(dtype='float64', id=None)",
-    "type_Bourbon": "Value(dtype='float64', id=None)",
-    "type_Irish": "Value(dtype='float64', id=None)",
-    "type_Japanese": "Value(dtype='float64', id=None)",
-    "type_Rye": "Value(dtype='float64', id=None)",
-    "type_Scotch": "Value(dtype='float64', id=None)",
-    "region_Canada": "Value(dtype='float64', id=None)",
-    "region_Cork": "Value(dtype='float64', id=None)",
-    "region_Dublin": "Value(dtype='float64', id=None)",
-    "region_Highlands": "Value(dtype='float64', id=None)",
-    "region_Hokkaido": "Value(dtype='float64', id=None)",
-    "region_Honshu": "Value(dtype='float64', id=None)",
-    "region_Islay": "Value(dtype='float64', id=None)",
-    "region_Kentucky": "Value(dtype='float64', id=None)",
-    "region_Lowlands": "Value(dtype='float64', id=None)",
-    "region_Speyside": "Value(dtype='float64', id=None)",
-    "region_Tennessee": "Value(dtype='float64', id=None)",
-    "region_USA": "Value(dtype='float64', id=None)",
-    "region_Unknown": "Value(dtype='float64', id=None)",
-    "cask_type_Bourbon": "Value(dtype='float64', id=None)",
-    "cask_type_Port": "Value(dtype='float64', id=None)",
-    "cask_type_Rum": "Value(dtype='float64', id=None)",
-    "cask_type_Sherry": "Value(dtype='float64', id=None)",
-    "cask_type_Tequila": "Value(dtype='float64', id=None)",
-    "cask_type_Wine": "Value(dtype='float64', id=None)",
-    "bottling_type_Blended": "Value(dtype='float64', id=None)",
-    "bottling_type_Cask Strength": "Value(dtype='float64', id=None)",
-    "bottling_type_Single Cask": "Value(dtype='float64', id=None)",
-    "bottling_type_Single Malt": "Value(dtype='float64', id=None)",
-    "is_limited_edition_False": "Value(dtype='float64', id=None)",
-    "is_limited_edition_True": "Value(dtype='float64', id=None)",
-    "rating_category_Excellent": "Value(dtype='float64', id=None)",
-    "rating_category_High": "Value(dtype='float64', id=None)",
-    "rating_category_Low": "Value(dtype='float64', id=None)",
-    "rating_category_Medium": "Value(dtype='float64', id=None)",
-    "category": "Value(dtype='int64', id=None)",
-    "__index_level_0__": "Value(dtype='int64', id=None)"
+  "default": {
+    "features": {
+      "age": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "abv": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "retail_price_usd": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "release_year": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "average_rating": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "award_wins": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "brand_Ardbeg": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "brand_Balvenie": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "brand_Buffalo Trace": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "brand_Glenfiddich": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "brand_Highland Park": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "brand_Jack Daniel's": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "brand_Jameson": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "brand_Lagavulin": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "brand_Macallan": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "brand_Yamazaki": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "type_Bourbon": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "type_Irish": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "type_Japanese": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "type_Rye": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "type_Scotch": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Canada": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Cork": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Dublin": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Highlands": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Hokkaido": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Honshu": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Islay": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Kentucky": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Lowlands": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Speyside": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Tennessee": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_USA": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "region_Unknown": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "cask_type_Bourbon": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "cask_type_Port": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "cask_type_Rum": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "cask_type_Sherry": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "cask_type_Tequila": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "cask_type_Wine": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "bottling_type_Blended": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "bottling_type_Cask Strength": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "bottling_type_Single Cask": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "bottling_type_Single Malt": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "is_limited_edition_False": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "is_limited_edition_True": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "rating_category_Excellent": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "rating_category_High": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "rating_category_Low": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "rating_category_Medium": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "category": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "post_processed": null,
+    "supervised_keys": null,
+    "builder_name": "csv",
+    "dataset_name": "whiskey_ratings",
+    "config_name": "default",
+    "version": "0.0.0",
+    "splits": {
+      "train": {
+        "name": "train",
+        "num_bytes": 17240,
+        "num_examples": 400,
+        "shard_lengths": null,
+        "dataset_name": "whiskey_ratings"
+      }
+    }
   }
 }
