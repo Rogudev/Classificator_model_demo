@@ -44,7 +44,7 @@ The required libraries are:
 ```
 - Clone this repository
 ```Bash
-    https://github.com/Rogudev/Classificator_model_demo
+    git clone https://github.com/Rogudev/Classificator_model_demo
 ```
 - Copy repository files in your environment
 ```Bash
